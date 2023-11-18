@@ -2,7 +2,7 @@ version: '3'
 
 services:
   backend:
-    container_name: backend
+    container_name: ML_backend
     build: .
     ports:
       - "8000:8000"
