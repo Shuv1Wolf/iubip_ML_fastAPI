@@ -1,8 +1,11 @@
 global:
-  scrape_interval: 15s
+  scrape_interval: 30s
 
 
 scrape_configs:
-  - job_name: 'fastapi'
+  - job_name: 'fastapi ml'
     static_configs:
       - targets: ['ml:4000']
+  - job_name: 'fastapi register'
+    static_configs:
+      - targets: [ 'backend:8000' ]
