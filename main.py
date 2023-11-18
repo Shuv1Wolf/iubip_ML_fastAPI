@@ -64,8 +64,8 @@ def ml(text, file_name):
 @app.post("/api/ml_model")
 async def root(utterance: str):
     try:
-        passive_request = ml(utterance, 'ml/passive_request.pickle')
-        passive_importance = ml(utterance, 'ml/passive_importance.pickle')
+        passive_request = ml(utterance, 'ml/svm_request.pickle')
+        passive_importance = ml(utterance, 'ml/XGBClassifier_importance.pickle')
         return {
             'category': passive_request,
             'importance': passive_importance
