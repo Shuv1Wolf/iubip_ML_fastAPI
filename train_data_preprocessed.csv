@@ -196,11 +196,11 @@
 194,problem paying inform,payment_issue,standard_priority
 195,tell cancel company newsletter subscription,newsletter_subscription,medium_priority
 196,tyo create user account,create_account,medium_priority
-197,ask agent inform pproblems paying please,payment_issue,medium_priority
+197,ask agent inform problems paying please,payment_issue,medium_priority
 198,discontent service would like file consumer complaint please,complaint,standard_priority
 199,please ask agent inform fucking issue payment,payment_issue,medium_priority
 200,help report payment issue,payment_issue,medium_priority
-201,changed mind whatshould cancel profile,delete_account,high_priority
+201,changed mind what should cancel profile,delete_account,high_priority
 202,want know modify purchase,change_order,standard_priority
 203,tell free contact customer support,contact_customer_service,medium_priority
 204,happy service submit comment,review,high_priority
@@ -226,14 +226,14 @@
 224,track last order,track_order,medium_priority
 225,get invoices,get_invoice,standard_priority
 226,dont know see early exiut charges,check_cancellation_fee,high_priority
-227,want fuckimg user account like open one,create_account,standard_priority
+227,want fucking user account like open one,create_account,standard_priority
 228,talk someone,contact_human_agent,medium_priority
 229,report problem paying,payment_issue,medium_priority
 230,u ask agent email contact customer service,contact_customer_service,high_priority
 231,could ask agent could view status purchase,track_order,medium_priority
 232,need submit feedback service,review,standard_priority
-233,open acconut wife,create_account,medium_priority
-234,jnderstand would like speak someone please,contact_human_agent,standard_priority
+233,open account wife,create_account,medium_priority
+234,understand would like speak someone please,contact_human_agent,standard_priority
 235,u ask agent lodge complaint,complaint,high_priority
 236,please ask agent could track packages,track_order,medium_priority
 237,u ask agent create account,create_account,high_priority
@@ -245,11 +245,11 @@
 243,try buy several items,place_order,medium_priority
 244,tell forgotten passwords,recover_password,medium_priority
 245,want know change purchase,change_order,high_priority
-246,prbolem making payment notify,payment_issue,standard_priority
+246,problem making payment notify,payment_issue,standard_priority
 247,got check invoice last month,check_invoice,standard_priority
 248,need assistance use new usr profile,switch_account,high_priority
 249,want know know shipments,track_order,standard_priority
-250,create onlind account,create_account,medium_priority
+250,create online account,create_account,medium_priority
 251,inform signup problems,registration_problems,standard_priority
 252,want information contact client service,contact_customer_service,medium_priority
 253,help buying item,place_order,medium_priority
