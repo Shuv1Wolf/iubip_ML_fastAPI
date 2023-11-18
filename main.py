@@ -9,6 +9,8 @@ from sklearn.linear_model import PassiveAggressiveClassifier
 from sklearn.model_selection import train_test_split
 import pandas as pd
 from starlette.middleware.cors import CORSMiddleware
+from prometheus_fastapi_instrumentator import Instrumentator
+
 
 app = FastAPI()
 
@@ -83,3 +85,6 @@ async def root(utterance: str):
             "data": None,
             "details": 'ML error or preprocessor error'
         })
+
+
+Instrumentator().instrument(app).expose(app)
