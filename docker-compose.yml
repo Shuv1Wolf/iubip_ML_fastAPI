@@ -5,5 +5,5 @@ services:
     container_name: ML_backend
     build: .
     ports:
-      - "8000:8000"
-    command: uvicorn main:app --host 0.0.0.0 --port 8000
+      - "443:443"
+    command: uvicorn main:app --host 0.0.0.0 --port 443
