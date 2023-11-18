@@ -6,4 +6,3 @@ scrape_configs:
   - job_name: 'fastapi'
     static_configs:
       - targets: ['ml:4000']
-
