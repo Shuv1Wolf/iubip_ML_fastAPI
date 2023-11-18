@@ -13,4 +13,7 @@ RUN pip install pandas
 RUN pip install Cython --install-option="--no-cython-compile"
 RUN pip install -U scikit-learn==1.2.2
 
+RUN pip install pandas
+RUN pip install prometheus_fastapi_instrumentator
+
 COPY . .

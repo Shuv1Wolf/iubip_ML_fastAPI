@@ -9,6 +9,8 @@ from nltk.tokenize import word_tokenize
 from sklearn.feature_extraction.text import TfidfVectorizer
 from sklearn.model_selection import train_test_split
 from starlette.middleware.cors import CORSMiddleware
+from prometheus_fastapi_instrumentator import Instrumentator
+
 
 app = FastAPI()
 
@@ -74,3 +76,7 @@ async def root(utterance: str):
             "data": None,
             "details": 'ML error or preprocessor error'
         })
+
+
+Instrumentator().instrument(app).expose(app)
+
