@@ -8,12 +8,9 @@ ENV PYTHONUNBUFFERED 1
 
 WORKDIR /GoodProject/backend/
 
-RUN pip install fastapi
-RUN pip install nltk
-RUN pip install pymorphy2
-RUN pip install uvicorn
+RUN pip install fastapi nltk pymorphy2 uvicorn
+RUN pip install pandas
 RUN pip install Cython --install-option="--no-cython-compile"
 RUN pip install -U scikit-learn==1.2.2
-RUN pip install pandas
 
 COPY . .
