@@ -65,7 +65,7 @@ def ml(text, file_name):
 async def root(utterance: str):
     try:
         passive_request = ml(utterance, 'ml/svm_request.pickle')
-        passive_importance = ml(utterance, 'ml/XGBClassifier_importance.pickle')
+        passive_importance = ml(utterance, 'ml/сlassifier_importance.pickle')
         return {
             'category': passive_request,
             'importance': passive_importance
